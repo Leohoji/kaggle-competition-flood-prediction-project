@@ -28,7 +28,7 @@ Steps I use in [Original_Notebook](https://github.com/Leohoji/kaggle-competition
 
 2. `Model Training`: In this step I will first train algorithms including `voting`, `bagging`, and `stacking` in 10-percent small dataset, and then choose the best algorithm to fit the dull dataset with `GridSearchCV` technique.
 
-3. `Prepare Sumission`: Prepare the predictions in contest-compliant format.
+3. `Prepare Submission`: Prepare the predictions in contest-compliant format.
 
 **Results**: Finally find the BaggingRegressor with Ridge regression as base estimator to be the best model, the R2 score is 0.84.
 
@@ -44,7 +44,7 @@ Steps I use is folloing:
 
 - 💪 **Improvement** 💪: Besides the `voting`, `bagging`, and `stacking` algorithms, I also implement `boosting` algorithms such as `XGBRegressor`, `CatBoostRegressor`, and `LGBMRegressor` to the data. Furthermore, instead of GridSearchCV, I choose the **[optuna](https://optuna.readthedocs.io/zh-cn/latest/tutorial/10_key_features/005_visualization.html)** library to search for better hyperparameters with some APIs for beautiful visualization to interpret the results. The most important of all, `cross validation` technique is implemented to my model building.
 
-3. `Prepare Sumission`: Prepare the predictions in contest-compliant format.
+3. `Prepare Submission`: Prepare the predictions in contest-compliant format.
 
 **Results**:
 
